@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Andrew Marshman">
+    <meta name="description" content="Contact Bergen Resorts">
+    <title>Bergen Ski Resorts - Contact</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Bergen Ski Resorts - Alpine Lodge</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <img src="images/swiss-valley.jpg" alt="Swiss valley landscape">
+        </section>
+        <h2>Contact Us</h2>
+        <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a *</p>
+        <img src="images/swiss-peak.jpg" alt="Swiss mountain peak" width="600" height="400">
+        <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label>Preferred Contact Method *</label>
+            <input type="radio" id="contact-email" name="contact-method" value="email" required>
+            <label for="contact-email">Email</label>
+            <input type="radio" id="contact-phone" name="contact-method" value="phone" required>
+            <label for="contact-phone">Phone</label>
+
+            <label for="comments">Comments *</label>
+            <textarea id="comments" name="comments" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2023 Bergen Ski Resorts. All rights reserved.</p>
+        <p>This site is for educational purposes only.</p>
+    </footer>
+    <audio autoplay loop>
+        <source src="path/to/silent-night_medium-2-177551.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
